@@ -1,0 +1,17 @@
+@import './base/mixins';
+@import './base/variables';
+@import './base/typo';
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+div.structure{
+    @include resetBox;
+
+}
+
+div.interface{
+    @extend .container-fluid;
+    position: relative;
+    max-width: 100%;
+    min-height: 100vh;
+    @include resetBox;
+}
