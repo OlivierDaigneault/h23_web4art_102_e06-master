@@ -5,6 +5,7 @@
 <template>
     <div class="interface">
         <main>
+            <h1>Placeholder grille prod</h1>
             <AffichageListe />
         </main>
     </div>

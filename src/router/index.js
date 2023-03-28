@@ -5,7 +5,7 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/home',
+      path: '/',
       name: 'home',
       component: () => import("@/views/PageAccueil.vue"),
     },
@@ -23,6 +23,14 @@ const router = createRouter({
       path: '/expo3',
       name: 'expo3',
       component: () => import("@/views/PageAccueilExpo3.vue"),
+    },
+    
+    
+    
+    {
+      path: '/produits',
+      name: 'produits.liste',
+      component: () => import("@/views/PageProduits.vue"),
     },
   ]
 })
